@@ -11,15 +11,13 @@
 <div align="center"><img src="https://i.imgur.com/Hy870OT.png" width="260px" height="76px" alt="dark-theme"></div>
 
 <br>
-<hr>
 
 ## [Demo and Source Code](https://zazerconer.github.io/Change-Theme-with-localStorage)
 
+<hr>
 <br><br>
 
-### LICENSE
-
-**[MIT](https://github.com/ZazerConer/Change-Theme-with-localStorage/blob/main/LICENSE)**
+### LICENSE [MIT](https://github.com/ZazerConer/Change-Theme-with-localStorage/blob/main/LICENSE)
 
 <br><br><br><br><br>
 
