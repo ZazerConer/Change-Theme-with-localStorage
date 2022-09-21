@@ -20,4 +20,4 @@
 
 <br><br><br><br><br>
 
-<div align="center">**© 2022 ZazerConer's - Change Theme with localStorage**</div>
+<div align="center">© 2022 ZazerConer's - Change Theme with localStorage</div>
