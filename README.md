@@ -1,3 +1,5 @@
-<div align="center">Change-Theme-with-localStorage</div>
+<div align="center"><strong>Change-Theme-with-localStorage</strong></div>
 
-Save the theme and get the current theme from localStorage.
+<br>
+
+### Save the theme and get the current theme from localStorage.
