@@ -6,9 +6,9 @@
 
 <br><br>
 
-<img align="center" src="https://i.imgur.com/x9H4sD9.png" width="260px" height="76px" alt="light-theme">
+<div align="center"><img src="https://i.imgur.com/x9H4sD9.png" width="260px" height="76px" alt="light-theme"></div>
 
-<img align="center" src="https://i.imgur.com/Hy870OT.png" width="260px" height="76px" alt="dark-theme">
+<div align="center"><img src="https://i.imgur.com/Hy870OT.png" width="260px" height="76px" alt="dark-theme"></div>
 
 <br>
 <hr>
@@ -17,7 +17,9 @@
 
 <br><br>
 
-#### License : [MIT](https://github.com/ZazerConer/Change-Theme-with-localStorage/blob/main/LICENSE)
+### LICENSE
+
+**[MIT](https://github.com/ZazerConer/Change-Theme-with-localStorage/blob/main/LICENSE)**
 
 <br><br><br><br><br>
 
