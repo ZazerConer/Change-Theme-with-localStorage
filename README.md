@@ -17,7 +17,7 @@
 <hr>
 <br><br>
 
-### LICENSE [MIT](https://github.com/ZazerConer/Change-Theme-with-localStorage/blob/main/LICENSE)
+### License [MIT](https://github.com/ZazerConer/Change-Theme-with-localStorage/blob/main/LICENSE)
 
 <br><br><br><br><br>
 
