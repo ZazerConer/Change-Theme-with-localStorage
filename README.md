@@ -16,8 +16,8 @@
 
 <br><br>
 
-**License : [MIT](https://github.com/ZazerConer/Change-Theme-with-localStorage/blob/main/LICENSE)
+**License : [MIT](https://github.com/ZazerConer/Change-Theme-with-localStorage/blob/main/LICENSE)**
 
 <br><br><br><br><br>
 
-<div align="center">© 2022 ZazerConer's - Change Theme with localStorage</div>
+<div align="center"><b>© 2022 ZazerConer's - Change Theme with localStorage</b></div>
