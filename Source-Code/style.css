@@ -1,0 +1,191 @@
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  transition: 0.3s;
+}
+
+/*----------------------------------------*/
+
+/* Theme color */
+body {
+  color: var(--font-color);
+  background-color: var(--bg-color);
+  ...;}
+main {
+  border: var(--main-border);
+  background-color: var(--main-bg);
+  ...;}
+
+/*----------------------------------------*/
+
+/* Optional text color. var(--) >> --title-color/--font-color/ */
+/* Or >> --h1-color/--h2-color/--h3-color/--h4-color/--h5-color/--h6-color/--p-color */
+
+/* Example: var(--title-color) */
+h1 {
+  color: var(--);
+  ...;}
+h2 {
+  color: var(--);
+  ...;}
+h3 {
+  color: var(--);
+  ...;}
+h4 {
+  color: var(--);
+  ...;}
+h5 {
+  color: var(--);
+  ...;}
+h6 {
+  color: var(--);
+  ...;}
+p {
+  color: var(--);
+  ...;}
+
+/*----------------------------------------*/
+/* Get your favorite color. Color Picker >> https://htmlcolorcodes.com/color-picker */
+
+/* Light theme */
+:root {
+  --h1-color: ;
+  --h2-color: ;
+  --h3-color: ;
+  --h4-color: ;
+  --h5-color: ;
+  --h6-color: ;
+  --p-color: ;
+  --bg-color: #eee;
+  --font-color: #303030;
+  --title-color: #0067e6;
+  --title-background: #fff;
+  --main-border: 1px solid rgba(255, 255, 255, 0.4);
+  --main-bg: rgba(255, 255, 255, 0.4);
+}
+
+/* Dark theme */
+[data-theme="dark"] {
+  --h1-color: ;
+  --h2-color: ;
+  --h3-color: ;
+  --h4-color: ;
+  --h5-color: ;
+  --h6-color: ;
+  --p-color: ;
+  --bg-color: #191919;
+  --font-color: #ffb300;
+  --title-color: #fec150;
+  --title-background: #222;
+  --main-border: 1px solid rgba(255, 255, 255, 0.2);
+  --main-bg: rgba(25, 25, 25, 0.4);
+}
+
+/*----------------------------------------*/
+
+/* Theme switch */
+.theme-switch-wrapper {
+  display: flex;
+  align-items: center;
+}
+.theme-switch-wrapper em {
+  margin-top: --;
+  margin-left: --;
+  margin-right: --;
+  margin-bottom: --;
+  font-size: 1rem;
+}
+.theme-switch {
+  position: relative;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+}
+.theme-switch input {
+  display: none;
+}
+
+/*----------------------------------------*/
+
+/* Click toggle */
+.click {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  cursor: auto;
+  border-radius: 50%;
+  background: #303030;
+}
+.click:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 95px;
+  height: 95px;
+  font-size: 25px;
+  border-radius: 50%;
+  transition: 0.4s;
+  background: linear-gradient(#ffca28,#ffc107,#ffb300,#ffa000,#ff8f00,#ff6f00);
+}
+
+/*----------------------------------------*/
+
+/* Input checked */
+input:checked + .click {
+  color: #e65100;
+  background: #ffa000;
+}
+input:checked + .click:before {
+  background: linear-gradient(#424242,#353535,#212121,#191919,#151515);
+}
+
+/*----------------------------------------*/
+
+/* Icons */
+.click span {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transition: opacity 0.2s ease 0s, transform 0.35s ease 0s;
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+/* Light */
+#icons-light {
+  font-size: 90px;
+  color: #eee;
+  opacity: 1;
+}
+/* Dark */
+#icons-dark {
+  font-size: 90px;
+  color: #ffa000;
+  opacity: 0;
+}
+/* Input checked - Click - Light/Dark */
+input:checked + .click #icons-light {
+  opacity: 0;
+}
+input:checked + .click #icons-dark {
+  opacity: 1;
+}
