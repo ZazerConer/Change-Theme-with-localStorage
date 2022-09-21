@@ -2,13 +2,13 @@
 
 <br>
 
-**This is a common and simple method, how to save a theme and get the current theme from local Storage using JavaScript.**
+**This is a common and simple method, how to save a theme and get the current theme from localStorage using JavaScript.**
 
 <br>
 
-<img align="center" src="" width="260px" height="76px" alt="light-theme">
+<img align="center" src="https://i.imgur.com/x9H4sD9.png" width="260px" height="76px" alt="light-theme">
 
-<img align="center" src="" width="260px" height="76px" alt="dark-theme">
+<img align="center" src="https://i.imgur.com/Hy870OT.png" width="260px" height="76px" alt="dark-theme">
 
 <hr>
 
